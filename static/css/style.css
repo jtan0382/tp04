@@ -1,0 +1,80 @@
+:root {
+    --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --heading-font: "Raleway", sans-serif;
+    --nav-font: "Poppins", sans-serif;
+  }
+  
+/* Global Colors */
+:root {
+    --background-color: #ffffff;
+    --background-color-rgb: 255, 255, 255;
+    --default-color: #080034;
+    --default-color-rgb: 68, 68, 68;
+    --heading-color: #159AB2;
+    --heading-color-rgb: 55, 66, 59;
+    --accent-color: #1CB8CF;
+    --accent-color-rgb: 95, 207, 128;
+    --contrast-color: #ffffff;
+    --contrast-color-rgb: 255, 255, 255;
+
+    --fw-light: 200;
+	--fw-normal: 400;
+	--fw-semibold: 600;
+	--fw-bold: 700;
+
+	--fs-400: 1rem;
+	--fs-500: 1.25rem; /*subtitle*/
+	--fs-600: 1.5rem; /*title*/
+	--fs-700: 2rem; 
+	--fs-900: 2.5rem;
+}
+  
+/* Nav Menu Colors */
+:root {
+    --nav-color: #080034;
+    --nav-hover-color: #1CB8CF;
+    --nav-dropdown-color: #080034;
+    --nav-dropdown-hover-color: #1CB8CF;
+    --nav-dropdown-background-color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	scroll-behavior: smooth;
+}
+
+body {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    font-family: var(--default-font);
+}
+  
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+  
+a:hover {
+    color: rgba(var(--accent-color-rgb), 0.75);
+    text-decoration: none;
+}
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+}
